@@ -1,0 +1,23 @@
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 0 10px;
+}
+
+.Menu{
+  display: flex;
+  list-style: none;
+}
+
+.Menu li{
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.Menu li:hover{
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
